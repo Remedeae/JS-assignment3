@@ -13,4 +13,10 @@ function isValidPassword(password, username) {
     }
 }
 
-console.log(isValidPassword("kak00000", "katt"));
+if (isValidPassword("kak0000", "katt") == true) {
+    console.log("Password confirmed");
+}
+else {
+    console.log("Please selecent another password");
+}
+
